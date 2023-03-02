@@ -14,7 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -33,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solutions]([https://your-solution-url.com](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub))
+- Live Site URL: [GitHub Pages]([https://your-live-site-url.com](https://johnmcdoe.github.io/3-column-preview-card-component-main/))
 
 ## My process
 
