@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+/* Custom properties */
+:root {
+    /* Primary colors */
+    --clr-column-1st: hsl(31, 77%, 52%);
+    --clr-column-2nd: hsl(184, 100%, 22%);
+    --clr-column-3rd: hsl(179, 100%, 13%);
+
+    /* Neutral colors */
+    --clr-paragraph: hsla(0, 0%, 100%, 0.75);
+    --clr-misc: hsl(0, 0%, 95%);
+
+    /* Font family */
+    --ff-text: "Lexend Deca", sans-serif;
+    --ff-header: "Big Shoulders Display", sans-serif;
+
+    /* Font weight */
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+/* CSS reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* General styling */
+
+body, .car-types, .car-type {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-size: 0.9375rem;
+    font-family: var(--ff-text);
+    font-weight: var(--fw-regular);
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-block: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    overflow: auto;
+}
+
+h2 {
+    font-family: var(--ff-header);
+    font-weight: var(--fw-bold);
+    font-size: 2.5rem;
+    text-transform: upperCase;
+}
+
+.car-types {
+    border-radius: 0.625rem;
+    overflow: hidden;
+}
+
+.car-type {
+    padding: 3rem;
+    gap: 2rem;
+    color: var(--clr-paragraph);
+    max-width: 279px;
+    min-height: 0;
+}
+
+.car-type-1 {
+    background-color: var(--clr-column-1st);
+}
+
+.car-type-2 {
+    background-color: var(--clr-column-2nd);
+}
+
+.car-type-3 {
+    background-color: var(--clr-column-3rd);
+}
+
+.car-icon {
+    max-width: 64px;
+}
+
+button {
+    display: inline-flex;
+    flex: 0;
+    align-self: flex-start;
+    padding: 1rem 2rem;
+    border: 0.125rem solid transparent;
+    border-radius: 100rem;
+}
+
+.button-1 {
+    color: var(--clr-column-1st);
+}
+
+.button-2 {
+    color: var(--clr-column-2nd);
+}
+
+.button-3 {
+    color: var(--clr-column-3rd);
+}
+
+button:is(:hover) {
+    border-color: var(--clr-misc);
+    color: var(--clr-misc);
+}
+
+.button-1:hover {
+    background-color: var(--clr-column-1st);
+}
+
+.button-2:hover {
+    background-color: var(--clr-column-2nd);
+}
+
+.button-3:hover {
+    background-color: var(--clr-column-3rd);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5rem;
+    color:hsl(0, 0%, 0%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Desktop design */
+
+@media (min-width: 900px) {
+    .car-types {
+        flex-direction: row;
+    }
+}
