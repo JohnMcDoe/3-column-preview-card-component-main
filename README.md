@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solutions]([https://your-solution-url.com](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub))
-- Live Site URL: [GitHub Pages]([https://your-live-site-url.com](https://johnmcdoe.github.io/3-column-preview-card-component-main/))
+- Solution URL: [Frontend Mentor Solutions](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub)
+- Live Site URL: [GitHub Pages](https://johnmcdoe.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
